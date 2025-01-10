@@ -5,7 +5,6 @@ import ArrowSide from "../../../assets/arrowside.svg";
 import Image from "next/image";
 import homeIcon from '../../../assets/home_icon.svg';
 import specialIcon from '../../../assets/special_icon.svg';
-import ProductCarousel from "../Products/ProductCarousel";
 import HomeIconInActive from "../../../assets/home_inActive.svg";
 import specialIconActive from "../../../assets/SpecialActive.svg";
 import AOS from 'aos';
