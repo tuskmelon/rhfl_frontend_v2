@@ -1,0 +1,137 @@
+.EnquiryFormBase {
+  position: absolute;
+  background: white;
+  padding: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 6rem;
+  top: -8rem;
+  border-radius: 0.25rem;
+  min-width: 30rem;
+  overflow: auto;
+  max-height: 35rem;
+  box-shadow: -1px 3px 16px 12px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: -1px 3px 16px 12px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 3px 16px 12px rgba(0, 0, 0, 0.26);
+  transition: 1s ease-in;
+}
+
+.okButton {
+  margin: auto;
+  display: block;
+  min-width: 6rem;
+  background-color: rgb(253, 181, 21);
+  /* text-transform: uppercase; */
+  color: white;
+  text-align: center;
+  line-height: 12px;
+  letter-spacing: 1px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+/* .modal.show .modal-dialog {
+    position: absolute !important;
+    left: 3rem !important;
+    top: 5rem;
+} */
+
+.enquiryApplyButton {
+  background-color: rgb(253, 181, 21);
+  /* text-transform: uppercase; */
+  color: white;
+  text-align: center;
+  line-height: 12px;
+  letter-spacing: 1px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  /* font-weight: bold; */
+}
+
+.enquiryCloseButton {
+  background-color: rgb(227, 26, 82);
+  /* text-transform: uppercase; */
+  color: white;
+  text-align: center;
+  line-height: 12px;
+  letter-spacing: 1px;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  /* font-weight: bold; */
+}
+
+.enquiryButtons {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.modal-open .modal {
+  padding: 0 !important;
+}
+
+@media (max-width: 550px) {
+  .modal.show .modal-dialog {
+    position: relative !important;
+    left: 0rem !important;
+    top: 0rem;
+  }
+}
+
+/* yuvi */
+.productformcontain {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+  overflow: hidden;
+  background: none !important;
+  position: relative;
+  box-sizing: border-box;
+}
+.productformenquiry {
+  background: #fff1f7 !important;
+
+  box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%),
+    0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
+  border-radius: 16px;
+}
+.form-control1 {
+  border-left: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  background: none !important;
+  border-bottom: 1px solid rgb(24, 24, 24) !important;
+  width: 100%;
+  height: 30px !important;
+}
+.enquiryForm {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ff0169;
+}
+.enquiryApplyButton1 {
+  padding: 10px 20px;
+  background: #ff0169;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+@media (max-width: 780px) {
+  .productformcontain {
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,70 @@
+.announcementsBackground {
+    background-image: url("https://doc.repcohome.com/uploads/anouncement_2_2ab49bb4ce.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.announcements {
+    /* color: #000; */
+    line-height: 18rem;
+}
+
+.new-announcement {
+    animation: newAnnouncement;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.important-announcement {
+    animation: importantAnnouncement;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+}
+
+@keyframes importantAnnouncement {
+    0% {
+        color: #ff0169;
+    }
+    33% {
+        color: black;
+    }
+    66% {
+        color: black;
+    }
+    100% {
+        color: #ff0169;
+    }
+}
+
+@keyframes newAnnouncement {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: orange;
+    }
+    100% {
+        background-color: #ff0169;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .announcementsBackground {
+        height: 15rem;
+    }
+    .announcements {
+        /* color: #000; */
+        line-height: 12rem;
+    }
+
+    .new-announcement {
+        font-size: 12px;
+    }
+}

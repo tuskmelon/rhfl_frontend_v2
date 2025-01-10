@@ -1,0 +1,13 @@
+.newupdatebg{
+    background-image: url(https://images.pexels.com/photos/3944417/pexels-photo-3944417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    background-color: #e9ecef;
+    border-radius: .3rem .3rem .0rem .0rem; 
+}
+.newsContainer{
+    background-color: rgba(211, 211, 211, 0.5);
+
+}

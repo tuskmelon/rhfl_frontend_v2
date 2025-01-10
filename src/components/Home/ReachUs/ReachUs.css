@@ -1,0 +1,11 @@
+.BranchCardImage {
+  /* min-height: 16rem !important; */
+  min-width: 11rem;
+  object-fit: cover;
+  /* height: 16rem; */
+}
+
+.alternateColor .card {
+  height: 27rem;
+  font-weight: 600;
+}

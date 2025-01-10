@@ -1,0 +1,638 @@
+[
+    {
+        "la": "english",
+        "Header": {
+            "logo": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cta_name": "Apply Now"
+        },
+        "GIF": "",
+        "banner": [
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner1_en.jpg"
+            },
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner2_en.jpg"
+            }
+        ],
+        "inputfield": {
+            "title": "Request a Free Call Back",
+            "name": "Name*",
+            "Email": "Email",
+            "mobile": "Mobile Number *",
+            "Loan_Amount": "Loan Amount *",
+            "Location": "Location*",
+            "Pincode": "Pincode*",
+            "Purpose": [
+                {
+                    "name": "Purpose"
+                },
+                {
+                    "name": "Home construction or Purchase"
+                },
+                {
+                    "name": "Commercial construction or Purchase"
+                },
+                {
+                    "name": "Plot Purchase"
+                },
+                {
+                    "name": "Repairs and renovation"
+                },
+                {
+                    "name": "Loan against property"
+                }
+            ]
+        },
+        "Loan_Solutions": {
+            "title": "Loan Solutions",
+            "color_title": "Tailored Just for You",
+            "description": "Apply for a Home Loan that's right for you and we'll make your dream home a reality",
+            "SchemeName": [
+                {
+                    "scheme": "Dream Home Loan"
+                },
+                {
+                    "scheme": "Home Makeover Loan"
+                }
+            ]
+        },
+        "Calci": {
+            "title": "Easy",
+            "clr_title": "EMI Calculator",
+            "description": "Calculate your EMI for Dream Home Loan and Makeover Loan with ease",
+            "LoanAmount": "Loan Amount",
+            "Lakhs": "Lakhs",
+            "Crore": "Crore",
+            "year": "year",
+            "years": "years",
+            "Months": "Months",
+            "Tenure": "Tenure",
+            "InterestRate": "Interest Rate (P.A)",
+            "MonthlyEMI": "Monthly EMI",
+            "InterestPayable": "Interest Payable",
+            "PrincipalAmount": "Principal Amount",
+            "cta": "Apply Now"
+        },
+        "Documentation": {
+            "title": "Documentation Required for",
+            "color_title": "Home Loans",
+            "Document_Needed": [
+                {
+                    "title": "KYC",
+                    "descri": "Documents for proof of identity and address such as PAN card, Aadhar card, Passport, etc."
+                },
+                {
+                    "title": "Property Documents",
+                    "descri": "Documents such as Letter of Allotment, Agreement to Sale, Registration receipt, NOC from builder, etc"
+                },
+                {
+                    "title": "Income Documents",
+                    "descri": "Financial documents such as your salary slips, latest Form 16, bank statements, etc."
+                }
+            ]
+        },
+        "Footprints": {
+            "title": "Our",
+            "clr_title": "FootPrints",
+            "counts": [
+                {
+                    "value": "24",
+                    "key": "Years"
+                },
+                {
+                    "value": "181",
+                    "key": "Branches"
+                },
+                {
+                    "value": "42",
+                    "key": "Satellite",
+                    "keybr": "Centres"
+                },
+                {
+                    "value": "14",
+                    "key": "Products"
+                }
+            ]
+        },
+        "about": {
+            "title": "What Our Clients Say",
+            "clr_title": "About Us",
+            "Testimonial": [
+                {
+                    "msg": "Customer friendly. They help in completing the formalities. Overall my experience is very good",
+                    "name": "Vijayakumar",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "I recently availed a home renovation loan from Repco Home Finance and couldn't be more satisfied. The entire process was smooth and efficient, from initial application to loan disbursement. ",
+                    "name": "Shiva Subaramani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "The team at Repco Home Finance was extremely helpful and supportive throughout the process. I highly recommend them for anyone looking to renovate their home. ",
+                    "name": "Amrish John",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "Repco is managed by professionals with transparency and no hidden charges and comply all norms of regulatory authority in true spirit ",
+                    "name": "syed jeelani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "This is one of the best place to go for a housing loan. The rate of interest is very low according to my knowledge. ",
+                    "name": "Kamarudheen M.A.",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                }
+            ]
+        },
+        "Secure_Dream": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/footimg.jpg"
+        },
+        "footer": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cpyrt": "  © 2024 All rights reserved."
+        }
+    },
+    {
+        "la": "kannada",
+        "Header": {
+            "logo": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cta_name": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ"
+        },
+        "GIF": "",
+        "banner": [
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner1_ka.jpg"
+            },
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner2_ka.jpg"
+            }
+        ],
+        "inputfield": {
+            "title": "ಉಚಿತ ಕಾಲ್ ಬ್ಯಾಕ್‍ಗಾಗಿ ವಿನಂತಿಸಿ",
+            "name": "Name*",
+            "Email": "Email",
+            "mobile": "Mobile Number *",
+            "Loan_Amount": "Loan Amount *",
+            "Location": "Location*",
+            "Pincode": "Pincode*",
+            "Purpose": [
+                {
+                    "name": "Purpose"
+                },
+                {
+                    "name": "Home construction or Purchase"
+                },
+                {
+                    "name": "Commercial construction or Purchase"
+                },
+                {
+                    "name": "Plot Purchase"
+                },
+                {
+                    "name": "Repairs and renovation"
+                },
+                {
+                    "name": "Loan against property"
+                }
+            ]
+        },
+        "Loan_Solutions": {
+            "title": "ನಿಮಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ",
+            "color_title": " ಸಾಲ ಪರಿಹಾರಗಳು",
+            "description": "ನಿಮಗೆ ಸೂಕ್ತವಾದ ಹೋಮ್ ಲೋನ್‌ಗಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಕನಸಿನ ಮನೆಯನ್ನು ನಾವು ನನಸಾಗಿಸುತ್ತೇವೆ",
+            "SchemeName": [
+                {
+                    "scheme": "ಡ್ರೀಮ್ ಹೋಮ್ ಲೋನ್"
+                },
+                {
+                    "scheme": "ಹೋಮ್ ಮೇಕ್ ಓವರ್ ಲೋನ್"
+                }
+            ]
+        },
+        "Calci": {
+            "title": "ಸುಲಭ",
+            "clr_title": "EMI ಕ್ಯಾಲ್ಕುಲೇಟರ್",
+            "description": "ಡ್ರೀಮ್ ಹೋಮ್ ಲೋನ್ ಮತ್ತು ಮೇಕ್ ಓವರ್ ಲೋನ್‌ಗಾಗಿ ನಿಮ್ಮ EMI ಅನ್ನು ಸುಲಭವಾಗಿ ಲೆಕ್ಕಾಚಾರ ಮಾಡಿ",
+            "LoanAmount": "ಸಾಲದ ಮೊತ್ತ",
+            "Lakhs": "ಲಕ್ಷಗಳು",
+            "Crore": "ಕೋಟಿ",
+            "year": "ವರ್ಷ",
+            "years": "ವರ್ಷಗಳು",
+            "Months": "ತಿಂಗಳು",
+            "Tenure": "ಅವಧಿ ",
+            "InterestRate": "ಬಡ್ಡಿ ದರ (P.A)",
+            "MonthlyEMI": "ಮಾಸಿಕ EMI",
+            "InterestPayable": "ಪಾವತಿಸಬೇಕಾದ ಬಡ್ಡಿ",
+            "PrincipalAmount": "ಅಸಲು ಮೊತ್ತ",
+            "cta": "ಅರ್ಜಿ ಸಲ್ಲಿಸಿ"
+        },
+        "Documentation": {
+            "title": "ಹೋಮ್ ಲೋನ್ ",
+            "color_title": "ಗಳಿಗೆ ಅಗತ್ಯವಿರುವ ದಾಖಲೆಗಳು",
+            "Document_Needed": [
+                {
+                    "title": "KYC",
+                    "descri": "ಪ್ಯಾನ್ (PAN) ಕಾರ್ಡ್, ಆಧಾರ್ ಕಾರ್ಡ್, ಪಾಸ್‌ಪೋರ್ಟ್ ಮುಂತಾದ ಗುರುತಿನ ಮತ್ತು ವಿಳಾಸದ ಪುರಾವೆಯ ದಾಖಲೆಗಳು."
+                },
+                {
+                    "title": "ಆಸ್ತಿ ದಾಖಲೆಗಳು",
+                    "descri": "ಹಂಚಿಕೆ ಪತ್ರ, ಮಾರಾಟ ಒಪ್ಪಂದ, ನೋಂದಣಿ ರಶೀದಿ, ಬಿಲ್ಡರ್‌ಗಳಿಂದ NOC ಇತ್ಯಾದಿ ದಾಖಲೆಗಳು."
+                },
+                {
+                    "title": "ಆದಾಯ ದಾಖಲೆಗಳು",
+                    "descri": "ನಿಮ್ಮ ಸಂಬಳದ ಚೀಟಿಗಳು, ಇತ್ತೀಚಿನ ನಮೂನೆ 16, ಬ್ಯಾಂಕ್ ಹೇಳಿಕೆಗಳು, ಇತ್ಯಾದಿ ಹಣಕಾಸಿನ ದಾಖಲೆಗಳು."
+                }
+            ]
+        },
+        "Footprints": {
+            "title": "ನಮ್ಮ",
+            "clr_title": "ಹೆಜ್ಜೆಗುರುತುಗಳು",
+            "counts": [
+                {
+                    "value": "24",
+                    "key": "ವರ್ಷಗಳು"
+                },
+                {
+                    "value": "181",
+                    "key": "ಶಾಖೆಗಳು"
+                },
+                {
+                    "value": "42",
+                    "key": "ಉಪಗ್ರಹ ",
+                    "keybr": "ಕೇಂದ್ರಗಳು"
+                },
+                {
+                    "value": "14",
+                    "key": "ಉತ್ಪನ್ನಗಳು"
+                }
+            ]
+        },
+        "about": {
+            "title": "ನಮ್ಮ ಗ್ರಾಹಕರು ",
+            "clr_title": "ನಮ್ಮ ಬಗ್ಗೆ ಏನು ಹೇಳುತ್ತಾರೆ",
+            "Testimonial": [
+                {
+                    "msg": "ಗ್ರಾಹಕ ಸ್ನೇಹಿ. ಅವರು ಔಪಚಾರಿಕತೆಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತಾರೆ. ಒಟ್ಟಾರೆ ನನ್ನ ಅನುಭವ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ",
+                    "name": "Vijayakumar",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "ನಾನು ಇತ್ತೀಚೆಗೆ ರೆಪ್ಕೋ ಹೋಮ್ ಫೈನಾನ್ಸ್‌ನಿಂದ ಮನೆ ನವೀಕರಣ ಸಾಲವನ್ನು ಪಡೆದುಕೊಂಡಿದ್ದೇನೆ ಮತ್ತು ಹೆಚ್ಚು ತೃಪ್ತರಾಗದಿರಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಆರಂಭಿಕ ಅರ್ಜಿಯಿಂದ ಸಾಲ ವಿತರಣೆಯವರೆಗೆ ಸಂಪೂರ್ಣ ಪ್ರಕ್ರಿಯೆಯು ಸುಗಮ ಮತ್ತು ಪರಿಣಾಮಕಾರಿಯಾಗಿತ್ತು. ",
+                    "name": "Shiva Subaramani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "ರೆಪ್ಕೋ ಹೋಮ್ ಫೈನಾನ್ಸ್‌ನಲ್ಲಿರುವ ತಂಡವು ಪ್ರಕ್ರಿಯೆಯ ಉದ್ದಕ್ಕೂ ಅತ್ಯಂತ ಹೆಚ್ಚು ಸಹಾಯಕವಾಗಿತ್ತು ಮತ್ತು ಬೆಂಬಲವನ್ನು ನೀಡಿತು. ತಮ್ಮ ಮನೆಯನ್ನು ನವೀಕರಿಸಲು ಬಯಸುವ ಯಾರಿಗಾದರೂ ನಾನು ಅವರನ್ನು ಹೆಚ್ಚು ಶಿಫಾರಸು ಮಾಡುತ್ತೇನೆ. ",
+                    "name": "Amrish John",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "ರೆಪ್ಕೊವನ್ನು ವೃತ್ತಿಪರರು ಪಾರದರ್ಶಕತೆ ಮತ್ತು ಯಾವುದೇ ಗುಪ್ತ ಶುಲ್ಕಗಳಿಲ್ಲದೆ ನಿರ್ವಹಿಸುತ್ತಾರೆ ಮತ್ತು ನಿಜವಾದ ಉತ್ಸಾಹದಲ್ಲಿ ನಿಯಂತ್ರಕ ಪ್ರಾಧಿಕಾರದ ಎಲ್ಲಾ ಮಾನದಂಡಗಳನ್ನು ಅನುಸರಿಸುತ್ತಾರೆ",
+                    "name": "syed jeelani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "ರೆಪ್ಕೊವನ್ನು ವೃತ್ತಿಪರರು ಪಾರದರ್ಶಕತೆ ಮತ್ತು ಯಾವುದೇ ಗುಪ್ತ ಶುಲ್ಕಗಳಿಲ್ಲದೆ ನಿರ್ವಹಿಸುತ್ತಾರೆ ಮತ್ತು ನಿಜವಾದ ಉತ್ಸಾಹದಲ್ಲಿ ನಿಯಂತ್ರಕ ಪ್ರಾಧಿಕಾರದ ಎಲ್ಲಾ ಮಾನದಂಡಗಳನ್ನು ಅನುಸರಿಸುತ್ತಾರೆ ",
+                    "name": "Kamarudheen M.A.",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                }
+            ]
+        },
+        "Secure_Dream": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/footimg_ka.jpg"
+        },
+        "footer": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cpyrt": "© 2024 ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ."
+        }
+    },
+    {
+        "la": "telugu",
+        "Header": {
+            "logo": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cta_name": "దరఖాస్తు చేసుకోండి"
+        },
+        "GIF": "",
+        "banner": [
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner1_tg.jpg"
+            },
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner2_tg.jpg"
+            }
+        ],
+        "inputfield": {
+            "title": "ఉచితంగా మీకు తిరిగి వచ్చే కాల్ అభ్యర్థించండి",
+           "name": "Name*",
+            "Email": "Email",
+            "mobile": "Mobile Number *",
+            "Loan_Amount": "Loan Amount *",
+            "Location": "Location*",
+            "Pincode": "Pincode*",
+            "Purpose": [
+                {
+                    "name": "Purpose"
+                },
+                {
+                    "name": "Home construction or Purchase"
+                },
+                {
+                    "name": "Commercial construction or Purchase"
+                },
+                {
+                    "name": "Plot Purchase"
+                },
+                {
+                    "name": "Repairs and renovation"
+                },
+                {
+                    "name": "Loan against property"
+                }
+            ]
+        },
+        "Loan_Solutions": {
+            "title": "మీ కోసం మాత్రమే రూపొందించబడిన",
+            "color_title": "రుణ పరిష్కారాలు",
+            "description": "మీకు సరిపోయే ఇంటి రుణం కోసం దరఖాస్తు చేసుకోండి. మేము మీ కలల ఇంటిని సాకారం చేస్తాము",
+            "SchemeName": [
+                {
+                    "scheme": "డ్రీమ్ హోమ్ లోన్"
+                },
+                {
+                    "scheme": "హోమ్ మేక్ఓవర్ లోన్‌"
+                }
+            ]
+        },
+        "Calci": {
+            "title": "సులభమైన ",
+            "clr_title": "EMI కాలిక్యులేటర్",
+            "description": "డ్రీమ్ హోమ్ లోన్ మరియు మేక్ఓవర్ లోన్ కోసం మీ EMIని సులభంగా లెక్కించండి",
+            "LoanAmount": "రుణ మొత్తం",
+            "Lakhs": "లక్షలు",
+            "Crore": "కోటి",
+            "year": "సంవత్సరాలు",
+            "years": "సంవత్సరాలు",
+            "Months": "నెల",
+            "Tenure": "గడువు కాలం ",
+            "InterestRate": "వడ్డీ రేటు (P.A)",
+            "MonthlyEMI": "నెలవారీ EMI",
+            "InterestPayable": "చెల్లించాల్సిన వడ్డీ",
+            "PrincipalAmount": "అసలు మొత్తం",
+            "cta": "దరఖాస్తు చేసుకోండి"
+        },
+        "Documentation": {
+            "title": "గృహ రుణాలకు ",
+            "color_title": "అవసరమైన డాక్యుమెంటేషన్",
+            "Document_Needed": [
+                {
+                    "title": "KYC",
+                    "descri": "పాన్ కార్డ్, ఆధార్ కార్డ్, పాస్‌పోర్ట్ మొదలైన గుర్తింపు మరియు చిరునామా రుజువు పత్రాలు."
+                },
+                {
+                    "title": "ఆస్తి పత్రాలు",
+                    "descri": "కేటాయింపు లేఖ, అమ్మకం ఒప్పందం, రిజిస్ట్రేషన్ రసీదు, బిల్డర్ నుండి NOC మొదలైన పత్రాలు"
+                },
+                {
+                    "title": "ఆదాయ పత్రాలు",
+                    "descri": "మీ జీతం స్లిప్‌లు, క్రొత్త ఫారమ్ 16, బ్యాంక్ స్టేట్‌మెంట్ మొదలైన ఆర్థిక పత్రాలు."
+                }
+            ]
+        },
+        "Footprints": {
+            "title": "మన ",
+            "clr_title": "పాదముద్రలు",
+            "counts": [
+                {
+                    "value": "24",
+                    "key": "సంవత్సరాలు"
+                },
+                {
+                    "value": "181",
+                    "key": "శాఖలు"
+                },
+                {
+                    "value": "42",
+                    "key": "ఉపగ్రహ ",
+                    "keybr": "కేంద్రాలు"
+                },
+                {
+                    "value": "14",
+                    "key": "ఉత్పత్తులు"
+                }
+            ]
+        },
+        "about": {
+            "title": "మా క్లయింట్లు ",
+            "clr_title": "మా గురించి ఏమి చెప్తారు",
+            "Testimonial": [
+                {
+                    "msg": "కస్టమర్ ఫ్రెండ్లీ. వారు లాంఛనాలు పూర్తి చేయడంలో సహాయం చేస్తారు. మొత్తం మీద నా అనుభవం చాలా బాగుంది",
+                    "name": "Vijayakumar",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "నేను ఇటీవల రెప్కో హోమ్ ఫైనాన్స్ నుండి ఇంటి పునరుద్ధరణ రుణం తీసుకున్నాను మరియు మరింత సంతృప్తి చెందాను. మొదటి దరఖాస్తు నుండి రుణ పంపిణీ వరకు మొత్తం ప్రక్రియ సజావుగా మరియు సమర్థవంతంగా జరిగింది. ",
+                    "name": "Shiva Subaramani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "ప్రక్రియ అంతటా రెప్కో హోమ్ ఫైనాన్స్ బృందం చాలా సహకారంగా మరియు మద్దతుగా ఉంది. వారి ఇంటిని పునరుద్ధరించాలని చూస్తున్న ఎవరికైనా నేను వారిని సిఫార్సు చేస్తున్నాను. ",
+                    "name": "Amrish John",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "రెప్కో పారదర్శకతతో మరియు దాచిన ఛార్జీలు లేకుండా నిపుణులచే నిర్వహించబడుతుంది మరియు నిజమైన స్ఫూర్తితో నియంత్రణ అధికారం యొక్క అన్ని నిబంధనలను పాటిస్తుంది",
+                    "name": "syed jeelani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "హౌసింగ్ లోన్ కోసం ఇది ఉత్తమమైన ప్రదేశం. నా జ్ఞానం ప్రకారం వడ్డీ రేటు చాలా తక్కువ.",
+                    "name": "Kamarudheen M.A.",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                }
+            ]
+        },
+        "Secure_Dream": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/footimg_tg.jpg"
+        },
+        "footer": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cpyrt": "© 2024 అన్ని హక్కులు ప్రత్యేకించబడ్డాయి."
+        }
+    },
+    {
+        "la": "tamil",
+        "Header": {
+            "logo": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cta_name": " விண்ணப்பியுங்கள்"
+        },
+        "GIF": "",
+        "banner": [
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner1_ta.jpg"
+            },
+            {
+                "url": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/banner2_ta.jpg"
+            }
+        ],
+        "inputfield": {
+            "title": "மீண்டும் இலவச அழைப்பைக் கோரவும்",
+            "name": "Name*",
+            "Email": "Email",
+            "mobile": "Mobile Number *",
+            "Loan_Amount": "Loan Amount *",
+            "Location": "Location*",
+            "Pincode": "Pincode*",
+            "Purpose": [
+                {
+                    "name": "Purpose"
+                },
+                {
+                    "name": "Home construction or Purchase"
+                },
+                {
+                    "name": "Commercial construction or Purchase"
+                },
+                {
+                    "name": "Plot Purchase"
+                },
+                {
+                    "name": "Repairs and renovation"
+                },
+                {
+                    "name": "Loan against property"
+                }
+            ]
+        },
+        "Loan_Solutions": {
+            "title": "உங்களுக்காகவே வடிவமைக்கப்பட்ட ",
+            "color_title": "கடன் தீர்வுகள்",
+            "description": "உங்களுக்கு ஏற்ற வீட்டுக் கடனுக்கு விண்ணப்பியுங்கள். உங்கள் கனவு இல்லத்தை நாங்கள் நனவாக்குவோம்",
+            "SchemeName": [
+                {
+                    "scheme": "ட்ரீம் ஹோம் லோன்"
+                },
+                {
+                    "scheme": "ஹோம் மேக்ஓவர் லோன்"
+                }
+            ]
+        },
+        "Calci": {
+            "title": "எளிதான ",
+            "clr_title": "EMI கால்குலேட்டர்",
+            "description": "ட்ரீம் ஹோம் லோன் மற்றும் மேக்ஓவர் லோனுக்கான உங்கள் EMI-ஐ எளிதாகக் கணக்கிடுங்கள்",
+            "LoanAmount": "கடன் தொகை",
+            "Lakhs": "லட்சங்கள்",
+            "Crore": "கோடி",
+            "year": "ஆண்டு",
+            "years": "ஆண்டுகள்",
+            "Months": "மாதம்",
+            "Tenure": "கால அளவு ",
+            "InterestRate": "வட்டி விகிதம் (P.A)",
+            "MonthlyEMI": "மாதாந்திர EMI",
+            "InterestPayable": "செலுத்த வேண்டிய வட்டி",
+            "PrincipalAmount": "முதன்மைத் தொகை",
+            "cta": "விண்ணப்பியுங்கள்"
+        },
+        "Documentation": {
+            "title": "வீட்டுக் கடனுக்கு ",
+            "color_title": "தேவையான ஆவணங்கள்",
+            "Document_Needed": [
+                {
+                    "title": "KYC",
+                    "descri": "பான் கார்டு, ஆதார் கார்டு, பாஸ்போர்ட் போன்ற அடையாள மற்றும் முகவரிக்கான சான்று ஆவணங்கள்"
+                },
+                {
+                    "title": "சொத்து ஆவணங்கள்",
+                    "descri": "ஒதுக்கீட்டுக் கடிதங்கள், விற்பனை ஒப்பந்தம், பதிவு ரசீது, பில்டரிடமிருந்து NOC போன்ற ஆவணங்கள்."
+                },
+                {
+                    "title": "வருமான ஆவணங்கள்",
+                    "descri": "உங்கள் சம்பள சீட்டுகள், சமீபத்திய படிவம் 16, வங்கி அறிக்கை போன்ற நிதி ஆவணங்கள்."
+                }
+            ]
+        },
+        "Footprints": {
+            "title": " எங்கள் ",
+            "clr_title": "காலடி தடங்கள்",
+            "counts": [
+                {
+                    "value": "24",
+                    "key": "ஆண்டுகள்"
+                },
+                {
+                    "value": "181",
+                    "key": "கிளைகள்"
+                },
+                {
+                    "value": "42",
+                    "key": "செயற்கைக்கோள் ",
+                    "keybr": "மையங்கள்"
+                },
+                {
+                    "value": "14",
+                    "key": "தயாரிப்புகள்"
+                }
+            ]
+        },
+        "about": {
+            "title": "எங்களைப் பற்றி ",
+            "clr_title": "எங்கள் வாடிக்கையாளர்கள் என்ன சொல்கிறார்கள்",
+            "Testimonial": [
+                {
+                    "msg": "வாடிக்கையாளருடனான நட்பு. அவர்கள் நடைமுறைகளை நிறைவேற்ற உதவுகிறார்கள். மொத்தத்தில் என்னுடைய அனுபவம் மிகவும் நன்றாக இருக்கிறது",
+                    "name": "Vijayakumar",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "நான் சமீபத்தில் ரெப்கோ ஹோம் ஃபைனான்ஸிலிருந்து வீடு புதுப்பிப்பு கடனைப் பெற்றேன் மற்றும் மிகவும் திருப்தியாக இருக்கிறேன். ஆரம்ப விண்ணப்பம் முதல் கடன் வழங்குவது வரை முழு செயல்முறையும் சீராகவும் விரைவாகவும் இருந்தது. ",
+                    "name": "Shiva Subaramani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "ரெப்கோ ஹோம் ஃபைனான்ஸ் குழுவினர் செயல்முறை முழுவதும் மிகவும் உதவியாகவும் ஆதரவாகவும் இருந்தார்கள். தங்கள் வீட்டைப் புதுப்பிக்க விரும்பும் எவருக்கும் நான் அவர்களை மிகவும் பரிந்துரைக்கிறேன்",
+                    "name": "Amrish John",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "Repco வெளிப்படைத்தன்மை மற்றும் மறைமுகக் கட்டணங்கள் இல்லாத வல்லுநர்களால் நிர்வகிக்கப்படுகிறது மற்றும் உண்மையான உணர்வில் ஒழுங்குமுறை அதிகாரத்தின் அனைத்து விதிமுறைகளுக்கும் இணங்குகிறது",
+                    "name": "syed jeelani",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                },
+                {
+                    "msg": "வீட்டுக் கடனுக்குச் செல்ல இது சிறந்த இடமாகும். என் அறிவின்படி வட்டி விகிதம் மிகவும் குறைவு.",
+                    "name": "Kamarudheen M.A.",
+                    "profileimg": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/profile.svg",
+                    "star": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/star.svg"
+                }
+            ]
+        },
+        "Secure_Dream": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/footimg_ta.png"
+        },
+        "footer": {
+            "img": "https://repcohome.s3.ap-south-1.amazonaws.com/repcocampaign/image+8+(3).svg",
+            "cpyrt": "© 2024 அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+        }
+    }
+]

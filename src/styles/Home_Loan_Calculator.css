@@ -1,0 +1,355 @@
+.CalculatorHeadings {
+  color: black;
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+}
+
+.rc-slider-rail {
+  position: absolute;
+  width: 100%;
+  border-radius: 6px;
+  background-color: lightgrey !important;
+  height: 10px;
+}
+
+.emiSelectedValues {
+  color: #fdb515;
+  font-weight: bold;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.LoanAmount {
+  margin: 0 !important;
+  float: right;
+  max-width: 6rem;
+  padding-right: 0.5rem;
+  text-align: right;
+  border: none;
+  border-radius: 0rem;
+  margin-top: 1rem;
+  color: black;
+  font-weight: bold;
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.LoanTenure {
+  margin: 0 !important;
+  float: right;
+  max-width: 3rem;
+  padding-right: 0.5rem;
+  text-align: right;
+  border: none;
+  border-radius: 0rem;
+  margin-top: 1rem;
+  color: black;
+  font-weight: bold;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+.LoanPercentage {
+  float: right;
+  max-width: 3.5rem;
+  text-align: right;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.CalculatorLabelsNormalCol {
+  margin: auto;
+  /* max-width: 3rem; */
+  padding: 0 !important;
+  width: fit-content;
+  margin-right: 0.25rem !important;
+}
+
+.CalculatorNormalLabels {
+  float: right;
+  background: white;
+  line-height: 1.2rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #000;
+  padding: 0.225rem;
+}
+
+.CalculatorNormalLabelsRight {
+  float: right;
+  background: white;
+  line-height: 1.125rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #000;
+  padding: 0.225rem;
+  font-size: 0.7rem;
+}
+
+.CalculatorNormalLabelLeft {
+  float: right;
+  background: white;
+  line-height: 1.2rem;
+  font-weight: bold;
+  /* padding-right: 0.5rem; */
+  padding-left: 0.5rem;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+  color: #000;
+  padding: 0.225rem;
+}
+
+.CalculatoValueCol {
+  left: 1rem;
+}
+
+.CalculatorLabelsCol {
+  margin: auto;
+  max-width: 3rem;
+}
+
+.CalculatorLabels {
+  margin: auto;
+  max-width: 3rem;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #ff0169;
+  line-height: 2.4rem;
+  margin-right: 0.90874997px;
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.CalculatorModule {
+  color: black;
+  width: 80%;
+  border: 6px solid #fdb515;
+  border-radius: 0.25rem;
+  padding-left: 7% !important;
+  padding-right: 7% !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.EmiValue {
+  /* border-left: 2px solid rgba(0, 0, 0, 0.1); */
+  /* padding-left: 3rem !important; */
+}
+.EmiCalculatorSliders {
+  padding-right: 3rem !important;
+}
+.EmiResult {
+  margin-top: 4rem;
+  color: rgb(255 255 255);
+  background: #fdb515;
+  /* border-radius: 0.25rem; */
+  padding: 0.25rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+.doughnut-mobile {
+  display: none !important;
+}
+
+.rupee-symbol {
+}
+
+/* .rc-slider-mark-text {
+    display: none !important;
+  } */
+
+@media only screen and (max-width: 575px) {
+  .rc-slider-mark-text {
+    display: none !important;
+  }
+  .EmiValue {
+    padding-left: 1rem !important;
+  }
+
+  .EmiCalculatorSliders {
+    padding-right: 0rem !important;
+  }
+
+  .doughnut-others {
+    display: none !important;
+  }
+  .doughnut-mobile {
+    display: block !important;
+    background-color: rgb(227, 26, 82);
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .CalculatorModule {
+    margin-bottom: 0 !important;
+    border: 1px solid #fdb515;
+    width: 95%;
+    padding: 4% !important;
+  }
+}
+
+/* Emi calci slider */
+
+.text-input {
+  border: 0px;
+  max-width: 70%;
+}
+
+.input_box {
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  padding: 6px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  /* text-align: left; */
+  /* text-decoration-skip-ink: none; */
+}
+.form-range {
+  width: 100%;
+}
+
+.text-input:focus {
+  outline: 2px solid transparent;
+  outline-offset: 0px;
+  box-shadow: none;
+  border-color: none;
+}
+/* 
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #e3dbdb;
+  border-radius: 16px;
+}
+
+input[type='range']::-moz-range-track {
+  height: 15px;
+  background: #e3dbdb;
+  border-radius: 16px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  
+  box-shadow: -407px 0 0 400px #ff0169;
+}
+
+input[type='range']::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  
+  box-shadow: -407px 0 0 400px #ff0169;
+} */
+
+/* new slider css */
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none; 
+
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  height: 6px;
+  background: #ccc;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+
+  -webkit-appearance: none;
+  appearance: none; 
+  
+  height: 20px;
+  width: 18px;
+  background-color: #ff0169;
+  border-radius: 50%;
+  border: none;
+  
+  transition: .2s ease-in-out;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #ff0169;
+  border-radius: 50%;
+  border: none;
+  
+  transition: .2s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px #f3d7e33e
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px #f3d7e33e
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px #f3d7e33e
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px #f3d7e33e
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px #f3d7e33e
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px #f3d7e33e    
+}
+
+/* end new slider  */
+.bg_image_home {
+  background-image: url('../assets/bg_calculator.png');
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  /* background-size: 100% 100%; */
+}
+
+.highcharts-root rect {
+fill: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+ .aprCalciulator .text-input {
+    max-width: 100% !important;
+  }
+}

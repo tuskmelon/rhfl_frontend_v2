@@ -1,0 +1,137 @@
+.flip-card {
+  background-color: white !important;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  /* object-fit: cover; */
+  min-width: 11rem;
+  min-height: 16rem;
+  margin: auto;
+
+
+}
+.card-col{
+  background-color: white !important;
+border-radius:10%;
+}
+.titlebg{
+  background-image:url("../../../assets/productcloud.svg") ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+.titlebg h3{
+  color: #FF0169;
+font-size: 14px;
+height: 4rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform ease-in-out 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem !important;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 0.25rem;
+  min-height: 16rem;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #ec1852;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 0.25rem;
+}
+
+.block-with-text {
+  padding: 1rem;
+  position: relative;
+  text-align: left;
+  margin: auto;
+  text-overflow: ellipsis;
+  height: 100%;
+  line-height: 2rem;
+  position: relative;
+  /* overflow: hidden; */
+  height: 85%;
+}
+.block-with-text:before {
+  /* content: 'ᐅ'; */
+  position: absolute;
+  right: 4rem;
+  bottom: 0rem;
+}
+.ProductList-wrapper {
+  background-color: rgb(253, 181, 21) !important;
+}
+.ProductList-wrapper > .Base-wrapper {
+  background-color: rgb(253, 181, 21) !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 3rem;
+}
+.flip-card-link > p {
+  color: black !important;
+  text-decoration: none !important;
+}
+.flip-card-link > p:hover {
+  text-decoration: none !important;
+}
+.custom-dot-list-style{
+  margin-top: 2rem!important;
+}
+.react-multi-carousel-track {
+  height: 25rem !important;
+}
+.perProductCardText ul li{
+  padding: 6px 0px;
+}
+.productBtn{
+  border-radius: 6.639px;
+background: #FF0169;
+display: flex;
+width: 192px;
+height: 47px;
+padding: 8.299px;
+justify-content: center;
+align-items: center;
+gap: 8.299px;
+flex-shrink: 0;
+}
+.image-customContain{
+  position: relative;
+  
+} 
+.image-custom {
+  bottom: 0px;
+  position: absolute;
+width: -webkit-fill-available;
+}

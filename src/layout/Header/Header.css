@@ -1,0 +1,177 @@
+
+#productdropdown-mobile {
+  display: none;
+  /* max-width: 18rem; */
+  margin: auto;
+}
+
+.productMobile-hide {
+  display: none;
+}
+
+#exploredropdown-mobile {
+  display: none;
+  /* max-width: 18rem; */
+  margin: auto;
+}
+
+.exploreMobile-hide {
+  display: none;
+}
+
+#noticedropdown-mobile {
+  display: none;
+  /* max-width: 18rem; */
+  margin: auto;
+}
+
+.noticeMobile-hide {
+  display: none;
+}
+
+.globalTopMargin {
+  margin-top: 7.75rem !important;
+}
+
+.firstNav > .fixed-top {
+  height: 2rem;
+  margin: auto;
+  /* color: rgb(227, 26, 82); */
+  background-color: white;
+}
+
+.contactFnav {
+  margin: auto;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: orange !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondNav > .fixed-top {
+  background-color: white !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.secondNav > .navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.secondNav > .bg-light {
+  background: white !important;
+}
+.secondNav > .navbar-brand {
+  padding: 0 !important;
+}
+
+.secondNav > .navbar-brand > img {
+  width: 12rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.secondNav > .PayOnline {
+  background-color: #FF0169 !important;
+  border: none !important;
+  
+}
+
+.secondNav > nav {
+  margin-top: 0rem !important;
+}
+
+.fixed-top {
+  background-color: rgb(253, 181, 21) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.bg-light {
+  background: white !important;
+}
+.navbar-brand {
+  padding: 0 !important;
+}
+
+.navbar-brand > img {
+  width: 18rem;
+}
+
+.navHeadul li {
+  position: relative; /* Required for absolute positioning of submenus */
+}
+.product_drop{
+  /* position: absolute!important; */
+  /* left: -5%!important; */
+  /* right: 5%!important;
+  top: 20%!important; */
+  margin: 0px 20px 0px 20px!important;
+}
+
+.nav-mega-menu1 {
+  display: none; /* Initially hide the submenu */
+  position: absolute;
+  top: 100%; /* Position submenu below the parent */
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.navHeadul li:hover > .nav-mega-menu1,
+.nav-mega-menu1:hover {
+  display: block; /* Show submenu when hovering on parent or submenu */
+}
+
+.nav-mega-menu1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-mega-menu1 li {
+  padding: 10px 20px;
+}
+
+.nav-mega-menu1 li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.nav-mega-menu1 li a:hover {
+  background-color: #f0f0f0;
+  color: #ff0169;
+}
+
+
+.new_mega_menu{
+  top: 20% !important;
+    left: 5% !important;
+}
+
+.SpecialLoan {
+  color: #ff0169 !important;
+  font-weight: 600;
+}
+
+.PayOnline {
+  background-color: #FF0169!important;
+  border: none !important;
+  color: #ffffff!important;
+  padding: 0.60rem!important;
+}
+.navApplyNow {
+  background-color: #ffffff!important;
+  color: #FF0169!important;
+  padding: 0.60rem!important;
+  border: 1px solid #FF0169!important;
+
+}

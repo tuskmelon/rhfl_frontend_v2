@@ -1,0 +1,88 @@
+.Card-style {
+  min-height: auto;
+  width: 30%;
+  margin: 0.5rem auto;
+  transition: 1s ease;
+}
+
+.DocumentList-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.DocumentList-wrapper_bg{
+  background-image: url("../../../assets/documentshomebg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.DocumentTitle{
+  color: #414141;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.DocumentTitle span{
+  color: #FF0169;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FAIcon {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+.DocumentIcon {
+  width: fit-content;
+  margin: auto;
+  /* padding: 1rem; */
+  border-radius: 5rem;
+  background: #ff0169;
+  color: white;
+  transition: 0.4s ease;
+  -webkit-box-shadow: 0px 14px 20px -6px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0px 14px 20px -6px rgb(0 0 0 / 20%);
+  box-shadow: 0px 14px 20px -6px rgb(0 0 0 / 20%);
+}
+
+/* .DocumentIcon {
+  width: fit-content;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 5rem;
+  background: #ff0169;
+  color: white;
+  transition: 0.4s ease;
+  -webkit-box-shadow: 0px 14px 20px -6px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0px 14px 20px -6px rgb(0 0 0 / 20%);
+  box-shadow: 0px 14px 20px -6px rgb(0 0 0 / 20%);
+} */
+
+/* .DocumentIcon:hover {
+  filter: drop-shadow(0px 5px 10px #00000080);
+  transition: 0.4s ease;
+  border-radius: 5rem;
+  background: rgb(253 181 21);
+  padding: 2rem;
+  color: white;
+} */
+
+.DocumentListTitle {
+  margin: 1rem;
+}
+.Card-style {
+  min-height: auto;
+  width: 30%;
+  margin: 0.5rem auto;
+  transition: 1s ease;
+}
+.DocumentList-container > p {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .Card-style {
+    width: 100%;
+    margin: 1em auto;
+  }
+}

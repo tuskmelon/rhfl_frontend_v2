@@ -1,0 +1,52 @@
+
+.image{
+    width: 400px;
+    height: 190px;
+}
+.cnt{
+   margin-top: 7rem;
+}
+
+
+
+.bg{
+    background: linear-gradient(131deg, #A5E3FF 0%, #FF92BE 100%);
+}
+
+.mq-cnt{
+    padding-left: 5rem;
+}
+
+.bg-size{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.font{
+    color: #252525;
+text-align: center; 
+font-size: 24px;
+font-weight: 500;
+}
+
+@media only screen and (max-width: 912px) {
+    
+    .image{
+        width: 200px;
+        height: 90px;
+    }
+    .font{
+        font-size: 17px;
+    }
+    .mq-cnt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .bg-size{
+        background-size: cover;
+        background-repeat: no-repeat !important;
+    }
+  }
