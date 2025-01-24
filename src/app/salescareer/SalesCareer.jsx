@@ -282,9 +282,16 @@ const SalesCareer = ({ branches }) => {
 
     const handleRecaptchaChange = async (e, value) => {
         e.preventDefault();
-        const response = await axios.post('/api/verify-captcha', { captchaValue: value })
-        return response
-    }
+        try {
+            const response = await axios.post('/api/verify-captcha', {
+                captchaValue: value 
+            });
+            console.log(response, "response");
+            return response;
+        } catch (error) {
+            console.log("Error verifying CAPTCHA:", error.response?.data || error.message);
+        }
+    };
 
 
     const uploadFile = async (file) => {

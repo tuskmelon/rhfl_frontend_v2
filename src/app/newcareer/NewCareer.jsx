@@ -184,7 +184,7 @@ const NewCareer = ({ branches }) => {
             return;
         }
 
-        if(mobileNumber.length < 10 || mobileNumber.length > 10) {
+        if (mobileNumber.length < 10 || mobileNumber.length > 10) {
             toast.error("❗Please enter a valid mobile number.", {
                 style: {
                     fontSize: '12px',
@@ -283,9 +283,16 @@ const NewCareer = ({ branches }) => {
 
     const handleRecaptchaChange = async (e, value) => {
         e.preventDefault();
-        const response = await axios.post('/api/verify-captcha', { captchaValue: value })
-        return response
-    }
+        try {
+            const response = await axios.post('/api/verify-captcha', {
+                captchaValue: value
+            });
+            console.log(response, "response");
+            return response;
+        } catch (error) {
+            console.log("Error verifying CAPTCHA:", error.response?.data || error.message);
+        }
+    };
 
     const handleChange = (selectedOptions) => {
         if (selectedOptions?.length <= 3) {
