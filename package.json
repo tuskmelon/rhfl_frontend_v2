@@ -18,6 +18,7 @@
     "amortization": "^1.1.1",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
+    "critters": "^0.0.23",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.7",
     "flowbite": "^2.3.0",

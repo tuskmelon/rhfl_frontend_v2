@@ -58,6 +58,8 @@ const nextConfig = {
         '@/*': ['./src/*'],
       },
     },
+    optimizeCss: true,
+    scrollRestoration: true,
   },
 
   serverExternalPackages: ['mysql'],
