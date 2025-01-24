@@ -5,6 +5,7 @@ import db from '@/lib/dbConnection';
 import { verifyToken } from '../jwtToken';
 import CryptoJS from 'crypto-js';
 import Joi from 'joi';
+import createFormLogger from '@/utils/logger';
 
 // Utility function for database queries
 const queryDB = (query, values = []) => {
@@ -241,6 +242,8 @@ function setSecurityHeaders(response) {
     return response;
 }
 
+const salesCareer = createFormLogger('salesCareerForm');
+
 export async function POST(req) {
     try {
         validateOrigin(req);
@@ -296,8 +299,8 @@ export async function POST(req) {
             }, { status: 400 }));
         }
 
-        const encryptedData = encryptData(sanitizedData);
-        const encryptedBranch = JSON.stringify(encryptedData.branch || []);
+        var encryptedDataNew = encryptData(sanitizedData);
+        const encryptedBranch = JSON.stringify(encryptedDataNew.branch || []);
         const now = new Date();
         const formattedDate = now.toISOString().split('T')[0]; // YYYY-MM-DD
         const formattedTime = now.toTimeString().split(' ')[0]; // HH:mm:ss
@@ -309,21 +312,21 @@ export async function POST(req) {
         `;
 
         const values = [
-            encryptedData.name,
-            encryptedData.mobileNumber,
-            encryptedData.email,
-            encryptedData.dob,
-            encryptedData.qualification,
-            encryptedData.communicationAddress,
-            encryptedData.pincode,
-            encryptedData.selectedState,
+            encryptedDataNew.name,
+            encryptedDataNew.mobileNumber,
+            encryptedDataNew.email,
+            encryptedDataNew.dob,
+            encryptedDataNew.qualification,
+            encryptedDataNew.communicationAddress,
+            encryptedDataNew.pincode,
+            encryptedDataNew.selectedState,
             encryptedBranch,
-            encryptedData.permanentAddress,
-            encryptedData.timejoin,
-            encryptedData.howKnow,
-            encryptedData.permanentPincode,
-            encryptedData.relativeWorking,
-            encryptedData.previousExperience,
+            encryptedDataNew.permanentAddress,
+            encryptedDataNew.timejoin,
+            encryptedDataNew.howKnow,
+            encryptedDataNew.permanentPincode,
+            encryptedDataNew.relativeWorking,
+            encryptedDataNew.previousExperience,
             resumeUrl,
             photoUrl,
             formattedDate + ' ' + formattedTime
@@ -331,13 +334,16 @@ export async function POST(req) {
 
         await queryDB(query, values);
 
+        salesCareer.info('Data submitted successfully');
+
         return NextResponse.json(
             { success: true, message: 'Data submitted successfully', status: 201 },
 
         );
     } catch (error) {
         const status = error.message === 'Access forbidden' ? 403 : 500;
-        console.error('POST Error:', error.message);
+        console.error('Error:', JSON.stringify(encryptedDataNew));
+        salesCareer.error('POST Error:', JSON.stringify(encryptedDataNew));
         return NextResponse.json(
             { error: 'Internal server error', message: error.message, status: status },
         );

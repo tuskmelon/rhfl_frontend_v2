@@ -16,6 +16,10 @@
   background-color: rgba(17, 24, 39, var(--tw-bg-opacity)) !important;
 }
 
+html{
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
 body {
   /* font-family: inherit; */
   font-family: 'Montserrat', sans-serif;

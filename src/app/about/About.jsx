@@ -13,7 +13,7 @@ const About = async () => {
   // console.log(DirectorsList, "DirectorsList")
 
   return (
-    <div className="max-w-[1280px] m-auto">
+    <div className="max-w-[1280px] m-auto overflow-hidden">
       <Breadcrumbs />
 
       <div className="headings text-center md:mt-4 mt-6 mb-4" data-aos="fade-up" >About US</div>

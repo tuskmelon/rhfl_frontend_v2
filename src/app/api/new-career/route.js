@@ -5,6 +5,7 @@ import db from '@/lib/dbConnection';
 import { verifyToken } from '../jwtToken';
 import CryptoJS from 'crypto-js';
 import Joi from 'joi';
+import createFormLogger from '@/utils/logger';
 
 // Utility function for database queries
 const queryDB = (query, values = []) => {
@@ -220,6 +221,8 @@ function setSecurityHeaders(response) {
     return response;
 }
 
+const newCareerLogger = createFormLogger('new_career');
+
 export async function POST(req) {
     try {
         validateOrigin(req);
@@ -246,6 +249,8 @@ export async function POST(req) {
             );
         }
 
+        var s3InfoUrl = s3Url
+
         const decryptedBody = decryptFormData(body);
 
 
@@ -267,7 +272,7 @@ export async function POST(req) {
             }, { status: 400 }));
         }
 
-        const encryptedData = encryptData(sanitizedData);
+        var encryptedDataNew = encryptData(sanitizedData);
         // const encryptedBranch = JSON.stringify(encryptedData.branch || []);
 
         const now = new Date();
@@ -281,16 +286,16 @@ export async function POST(req) {
     `;
 
         const values = [
-            encryptedData.name,
-            encryptedData.mobileNumber,
-            encryptedData.email,
-            JSON.stringify(encryptedData.expertise || []),
-            encryptedData.qualification,
-            encryptedData.experience,
-            encryptedData.location,
-            JSON.stringify(encryptedData.branch || []),
-            encryptedData.currentCTC,
-            encryptedData.expectedCTC,
+            encryptedDataNew.name,
+            encryptedDataNew.mobileNumber,
+            encryptedDataNew.email,
+            JSON.stringify(encryptedDataNew.expertise || []),
+            encryptedDataNew.qualification,
+            encryptedDataNew.experience,
+            encryptedDataNew.location,
+            JSON.stringify(encryptedDataNew.branch || []),
+            encryptedDataNew.currentCTC,
+            encryptedDataNew.expectedCTC,
             formattedDate,
             formattedTime,
             s3Url,
@@ -299,6 +304,8 @@ export async function POST(req) {
 
         await queryDB(query, values);
 
+        newCareerLogger.info('Data submitted successfully');
+
         return NextResponse.json(
             { success: true, message: 'Data submitted successfully', status: 201 },
 
@@ -306,6 +313,10 @@ export async function POST(req) {
     } catch (error) {
         const status = error.message === 'Access forbidden' ? 403 : 500;
         console.error('POST Error:', error.message);
+        newCareerLogger.error('POST Error:', JSON.stringify({
+            encryptedDataNew,
+            s3InfoUrl,
+        }));
         return NextResponse.json(
             { error: 'Internal server error', message: error.message, status: 500 },
         );

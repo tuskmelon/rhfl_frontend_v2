@@ -5,6 +5,7 @@ import db from '@/lib/dbConnection';
 import { verifyToken } from '../jwtToken';
 import CryptoJS from 'crypto-js';
 import Joi from 'joi';
+import createFormLogger from '@/utils/logger';
 // import { DOMPurify } from 'dompurify';
 // import { escape } from 'html-escaper';
 
@@ -33,7 +34,7 @@ const validateOrigin = (req) => {
 export async function GET(req) {
     try {
 
-       
+
 
         if (!validateOrigin(req)) {
             return NextResponse.json(
@@ -180,6 +181,8 @@ function setSecurityHeaders(response) {
     return response;
 }
 
+const homeLoanLogger = createFormLogger('home_loan_form');
+
 export async function POST(req) {
     try {
         if (!validateOrigin(req)) {
@@ -211,7 +214,7 @@ export async function POST(req) {
             }, { status: 400 }));
         }
 
-        const encryptedData = encryptData(sanitizedData);
+        var encryptedData = encryptData(sanitizedData);
 
         const date = new Date();
         const formattedDate = date.toISOString().split('T')[0];
@@ -237,8 +240,9 @@ export async function POST(req) {
             formattedTime
         ];
 
-        await queryDB(query, values);
 
+        await queryDB(query, values);
+        homeLoanLogger.info('Data submitted successfully', JSON.stringify(encryptedData));
         return setSecurityHeaders(NextResponse.json(
             { success: true, message: 'Data submitted successfully', status: 200 },
             { status: 200 }
@@ -246,6 +250,7 @@ export async function POST(req) {
 
     } catch (error) {
         console.error('Error:', error);
+        homeLoanLogger.error('Error submitting data', JSON.stringify(encryptedData));
         return setSecurityHeaders(NextResponse.json(
             { error: 'Internal server error', status: 500 },
             { status: 500 }

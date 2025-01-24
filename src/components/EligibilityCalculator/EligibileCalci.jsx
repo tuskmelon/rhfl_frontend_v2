@@ -131,8 +131,10 @@ const EligibileCalci = () => {
                 interestPaymentRounded: interestThisPaymentInCents,
                 paymentYear: yearCurrent,
                 payment: principalThisPaymentInCents + interestThisPaymentInCents,
-                paymentDate: monthCurrent
+                paymentDate: monthCurrent,
+                paymentMonth: new Date(yearCurrent, monthCurrent - 1).toLocaleString('default', { month: 'long' }) // This gives the full month name
             };
+
 
             payments.push(payment);
 

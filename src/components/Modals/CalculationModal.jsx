@@ -38,11 +38,13 @@ export function CalculationModal({ openModal, setOpenModal, filteredValue, year,
                                         <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600" key={index}>
                                             <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                                 {
-                                                    divide
-                                                        ? moment(`${item?.paymentDate}-01-${item?.paymentYear}`, "MM-01-YYYY", true).isValid()
-                                                            ? moment(`${item?.paymentDate}-01-${item?.paymentYear}`, "MM-01-YYYY").format('MMMM')
-                                                            : "Invalid Date"
-                                                        : item?.paymentMonth
+                                                    item?.paymentDate &&
+                                                        item?.paymentMonth ? item?.paymentMonth :
+                                                        divide
+                                                            ? moment(`${item?.paymentDate}-01-${item?.paymentYear}`, "MM-01-YYYY", true).isValid()
+                                                                ? moment(`${item?.paymentDate}-01-${item?.paymentYear}`, "MM-01-YYYY").format('MMMM')
+                                                                : "Invalid Date"
+                                                            : item?.paymentMonth
                                                 }
                                             </th>
                                             <td className="px-6 py-4">

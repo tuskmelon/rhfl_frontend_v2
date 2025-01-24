@@ -4,6 +4,7 @@ import db from '@/lib/dbConnection';
 import Joi from 'joi';
 import CryptoJS from 'crypto-js';
 import { verifyToken } from '../jwtToken';
+import createFormLogger from '@/utils/logger';
 
 // Utility function for database queries
 const queryDB = (query, values = []) => {
@@ -126,8 +127,8 @@ const schema = Joi.object({
         .messages({
             'string.pattern.base': 'Loan purpose contains invalid characters'
         }),
-    utmSrc: Joi.string().allow(null, '').optional(),  
-    utmMedium: Joi.string().allow(null, '').optional(), 
+    utmSrc: Joi.string().allow(null, '').optional(),
+    utmMedium: Joi.string().allow(null, '').optional(),
     utmCampaign: Joi.string().allow(null, '').optional()
 });
 
@@ -191,6 +192,8 @@ function decryptFormData(data) {
     return decryptedData;
 }
 
+const leadFormLogger = createFormLogger('leads');
+
 export async function POST(req) {
     try {
         if (!validateOrigin(req)) {
@@ -224,10 +227,8 @@ export async function POST(req) {
             }, { status: 400 }));
         }
 
-        // Encrypt the validated data
-        const encryptedData = encryptData(validationResult.data);
+        var encryptedData = encryptData(validationResult.data);
 
-        // Format current date and time
         const date = new Date();
         const formattedDate = date.toISOString().split('T')[0];
         const formattedTime = date.toTimeString().split(' ')[0];
@@ -255,6 +256,8 @@ export async function POST(req) {
 
         await queryDB(query, values);
 
+        leadFormLogger.info('Lead form submitted successfully');
+
         return setSecurityHeaders(NextResponse.json(
             { success: true, message: 'Data submitted successfully', status: 201 },
             { status: 201 }
@@ -262,6 +265,7 @@ export async function POST(req) {
 
     } catch (error) {
         console.error('Error:', error);
+        leadFormLogger.error('Error submitting lead form', encryptedData);
         return setSecurityHeaders(NextResponse.json(
             {
                 error: 'Internal server error',

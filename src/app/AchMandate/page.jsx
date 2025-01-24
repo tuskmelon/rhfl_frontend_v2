@@ -22,7 +22,7 @@ export async function generateMetadata() {
 
 const Page = () => {
     return (
-        <div className=' mb-8 max-w-[1280px] m-auto md:p-1 p-2'>
+        <div className=' mb-8 max-w-[1280px] m-auto md:p-1 p-2 overflow-hidden'>
 
             <Breadcrumbs />
             <AchMandate />
