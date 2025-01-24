@@ -24,7 +24,7 @@ const IntimationStockExchange = async () => {
 
         const finalFileName = fileNameWithSpaces?.substring(0, fileNameWithSpaces?.lastIndexOf(''));
         let finalValue = finalFileName?.split(' ')?.slice(0, -1)?.join(' ');
-        console.log(finalValue, "finalValue");
+        // console.log(finalValue, "finalValue");
         return finalValue;
     };
 
