@@ -21,3 +21,5 @@ export const loginStore = data => {
         }
     })
 }
+
+export const clearToken = () => Userlogin.setState(initialValue)

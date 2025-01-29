@@ -105,7 +105,7 @@ export const useApplyNowLeads = ({ token }) => {
             return ApplyNowLeads({ token });
         },
         staleTime: 60 * 1000,
-        enabled: token.length > 0
+        enabled: token?.length > 0
     })
 }
 

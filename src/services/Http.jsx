@@ -21,16 +21,26 @@ const handleResponse = (response) => {
 };
 
 const handleError = (error) => {
-  if (error?.request) {
-    //console.log(error.request)
-    // throw new Error(error.request);
-  } else if (error?.response) {
-    //console.log(error?.response?.data)
-    // throw new Error(error?.response?.data);
+  let errorMessage = "Unexpected error occurred.";
+  let statusCode = 500;
+
+  if (error?.response) {
+    errorMessage = error.response.data.message || error.response.data;
+    statusCode = error.response.status;
+    console.error(`Server Error: ${statusCode} - ${errorMessage}`);
+  } else if (error?.request) {
+    errorMessage = "No response from server. Please try again later.";
+    console.error("No response from server:", error.request);
   } else {
-    //console.log(error?.message || "Request Erroe")
-    // throw new Error(error?.message || "Request Erroe");
+    errorMessage = error.message || "Unexpected error occurred.";
+    console.error("Error occurred:", error.message);
   }
+
+  return {
+    success: false,
+    message: errorMessage,
+    status: statusCode
+  };
 };
 
 const senderRequest = async (

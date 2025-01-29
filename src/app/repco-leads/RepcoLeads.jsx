@@ -9,7 +9,7 @@ import { CsvExportModule } from "@ag-grid-community/csv-export";
 ModuleRegistry.registerModules([CsvExportModule]);
 import { useApplyNowLeads } from '@/query/useQuery';
 import { useRouter } from 'next/navigation';
-import { Userlogin } from '@/store';
+import { clearToken, Userlogin } from '@/store';
 
 const RepcoLeads = () => {
     const token = Userlogin(state => state?.login)
@@ -17,7 +17,27 @@ const RepcoLeads = () => {
     // debugger
     const router = useRouter();
     const gridRef = useRef();
-    const { data } = useApplyNowLeads({ token });
+    const { data, error } = useApplyNowLeads({ token });
+
+    useEffect(() => {
+        const redirectToLogin = () => {
+            clearToken(); 
+            router.push('/admin-login');
+        };
+
+        if (!token || token?.length === 0) {
+            console.warn('No token found. Redirecting to login...');
+            redirectToLogin();
+            return;
+        }
+
+        if (error || data?.data?.status === 403 || data?.data?.status === 401) {
+            console.warn('Unauthorized access or session expired. Redirecting to login...');
+            redirectToLogin();
+            return;
+        }
+    }, [data?.data?.status, error, token, router]);
+
     const [filteredData, setFilteredData] = useState([]);
     const [originalData, setOriginalData] = useState([]);
     const [dateFilter, setDateFilter] = useState({
@@ -45,13 +65,7 @@ const RepcoLeads = () => {
         }
     };
 
-    useEffect(() => {
-        if (data?.data?.status === 403 || data?.data?.status === 401) {
-            router.push('/admin-login');
-            // clearToken();
-            return
-        }
-    }, [data?.data?.status]);
+
 
     // const isHydrated = Userlogin?.persist?.hasHydrated();
     // useEffect(() => {

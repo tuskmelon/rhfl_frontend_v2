@@ -53,6 +53,7 @@ const nextConfig = {
   },
 
   experimental: {
+    turboMode:true,
     turbo: {
       resolveAlias: {
         '@/*': ['./src/*'],
